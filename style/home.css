@@ -1,3 +1,7 @@
+/*anular estilos por default*/
+body {
+    margin: 0;
+}
 .cabecera {
     overflow: hidden;
     background-color: #333;
@@ -34,4 +38,38 @@
 }
 #oki{
     text-align: center;
+}
+/*para dividir el contenido en secciones*/
+.content-header {
+    padding-left: 16px; /*coincide con el padding de '.cabecera a'*/
+    padding-right: 16px;
+}
+.content-header-box {
+    float: left;
+    height: 80px;
+    line-height: 80px;
+}
+
+.content-header-title-box {
+    width: 70%;
+    text-align: left;
+}
+
+.content-header-title-box h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.content-header-button-box {
+    width: 30%;
+    text-align: right;
+}
+
+/*widgets*/
+.boton-generico-grande {
+    border: none;
+    background-color: #dfdfdf;
+    box-shadow: none;
+    font-size: 16px;
+    padding: 16px;
 }
