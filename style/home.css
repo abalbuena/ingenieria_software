@@ -1,0 +1,37 @@
+.cabecera {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecera a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.cabecera a:hover {
+    background-color: red;
+}
+.cabecera  #user{
+    float: right;
+}
+#login{
+    background-color: lightblue;
+    position:fixed;
+    top:30%;
+    left:40%;
+    padding: 5%;
+}
+
+#login > #ingresar{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family: 'Roboto';
+
+}
+#oki{
+    text-align: center;
+}
