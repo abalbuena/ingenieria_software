@@ -1,0 +1,18 @@
+.body {
+    font-family: sans-serif;
+}
+.color-gray-light {
+    color: #dfdfdf;
+}
+.color-gray-medium {
+    color: #666;
+}
+.bg-color-white {
+    background-color: #fff;
+}
+.bg-color-gray-light {
+    background-color: #f3f3f3;
+}
+.bg-color-gray-medium {
+    background-color: #dfdfdf;
+}

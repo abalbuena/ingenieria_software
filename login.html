@@ -3,16 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <title>Ing de software</title>
-        <link rel="stylesheet" type="text/css" href="style/home.css">
+        <link rel="stylesheet" type="text/css" href="style/base.css">
+        <link rel="stylesheet" type="text/css" href="style/login.css">
     </head>
-    <body>
-        <div id="login">
-            <div id="ingresar" ><b>Login</b></div> <br><br>
+    <body class="bg-color-gray-light">
+        <div class="login-box bg-color-white">
+            <div class="login-box-title">
+                <label class="color-gray-medium">Ingresar</label>
+            </div>
+            <div>
                 <form action="home.html">
-                    <input type="text" placeholder="usuario" name="user"><br><br>
-                    <input type="password" placeholder="contraseña" name="pass"><br><br>
-                    <div id="oki"><input  type="submit" value="OK"></div>
+                    <div class="login-box-input-container">
+                        <input type="text" placeholder="usuario" name="user"/>
+                    </div>
+                    <div class="login-box-input-container">
+                        <input type="password" placeholder="contraseña" name="pass"/>
+                    </div>
+                    <div class="login-box-recuperar-password">
+                        <a href="recuperar-password.html">
+                            <label>olvidé mi contraseña</label>
+                        </a>
+                    </div>
+                    <div class="login-box-input-container">
+                        <input  type="submit" value="OK">
+                    </div>
                 </form>
+            </div>
         </div>
     </body>
 </html>

@@ -1,0 +1,27 @@
+.login-box {
+    width: 400px;
+    /* height: 400px; */ /*dejamos que se ajuste al contenido esta mierda*/
+    margin: 40px auto;
+    top: 30px;
+    border-color: #dfdfdf;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login-box-title {
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+}
+
+.login-box-input-container {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.login-box-recuperar-password {
+    text-align: right;
+}
