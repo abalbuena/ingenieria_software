@@ -1,0 +1,31 @@
+ #report{
+    position: fixed;
+    top:9%;
+    left:40%;
+    height:800px;
+    width:800px;
+    text-align:center;
+    border-style: groove;
+       
+}
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 25%;
+}
+
+th, td {
+    padding: 15px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+table input {
+    background-color: transparent;
+    border-bottom-color:antiquewhite;
+
+}

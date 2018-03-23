@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Ing de software</title>
+    <link rel="stylesheet" type="text/css" href="style/home.css">
+    <link rel="stylesheet" type="text/css" href="style/reporte.css">
+</head>
+<body>
+
+    <div class="cabecera">
+        <a href="home.html">Home</a>
+        <a style="background:red" href="reportes.html">Reportes</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="#">Administracion</a>
+        <a href="#">Definiciones</a>
+        <a id="user" href="#">User</a>
+    </div>
+    <div>
+        <div>Filtrar por</div>
+        <div>
+            <select id="filtrix">
+                <option>Usuario</option>
+                <option>Fulano</option>
+                <option>Sultano</option>
+                <option>Mengano</option>
+            </select>
+            <select id="filtrix2">
+                <option>User History</option>
+                <option>UH 1</option>
+                <option>UH 2</option>
+                <option>UH 3</option>
+            </select>
+            <select id="filtrix3">
+                <option>Sprint</option>
+                <option>Sprint 1</option>
+                <option>Sprint 2</option>
+                <option>Sprint 3</option>
+            </select>
+        </div>
+        <br><br>
+        <div>
+            <table>
+                <tr>
+                    <th>Proyecto</th>
+                    <th>Descripcion</th>
+                    <th>Usuario</th>
+                    <th>Etc</th>
+                </tr>
+                <tr>
+                    <td><input onclick="clickf(this.value)" type="button" value="Proyecto 1" /></td>
+                    <td>Desc 1</td>
+                    <td>User 1</td>
+                    <td>Other</td>
+                </tr>
+                <tr>
+                    <td><input onclick="clickf(this.value)" type="button" value="Proyecto 2" /></td>
+                    <td>Desc 2</td>
+                    <td>User 2</td>
+                    <td>Other</td>
+                </tr>
+                <tr>
+                    <td><input onclick="clickf(this.value)" type="button" value="Proyecto 3" /></td>
+                    <td>Desc 3</td>
+                    <td>User 3</td>
+                    <td>Other</td>
+                </tr>
+            </table>
+        </div>
+        <div id="report"></div>
+        </div>
+
+
+    <script>
+
+        function clickf(x) {
+            var sele, selstr, report;
+
+            /*
+             sele = document.getElementById('sel');
+            selstr = sele.options[sele.selectedIndex].value;
+            document.getElementById('sel').innerHTML = '<iframe src="#"></iframe> ';
+            */
+
+            report = document.getElementById('report');
+            report.style.backgroundColor = "grey";
+            report.innerHTML = '<h1 > Reporte del ' + x + '</h1>';
+        }
+    </script>
+
+</body> 
+</html>
