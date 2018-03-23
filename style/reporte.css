@@ -1,9 +1,9 @@
  #report{
-    position: fixed;
-    top:9%;
-    left:40%;
+    position: absolute;
+    top:50px;
+    right:0;
+    left:500px;
     height:800px;
-    width:800px;
     text-align:center;
     border-style: groove;
        
